@@ -1,0 +1,65 @@
+body {
+  font-family: "Roboto", sans-serif;
+  /* margin: 60px; */
+  background-image: url("../public/yogaBackground2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  backdrop-filter: blur(6px);
+  margin: 0px;
+  /* padding: 10px; */
+  cursor: default;
+}
+a{
+  color: white;
+  font-style: italic;
+}
+
+.category,
+.fetchCategories,
+.YogaCategory,
+.Homepage,
+.Fitness,
+.Diet{
+  background-color: black;
+  color: aqua;
+  opacity: 0.8;
+  /* border: 1px solid aqua; */
+  /* padding: 15px */
+}
+
+.Homepage, .Fitness{
+  height: 100vh;
+  text-align: center;
+}
+
+/* .Diet{
+  
+} */
+.category{
+  padding: 10px;
+}
+
+.category:hover,
+.pose:hover {
+  opacity: 1;
+}
+.Homepage, .Yoga, .YogaCategory, .Fitness, .Diet{
+  margin-top: 60px;
+  padding: 20px;
+  /* background-color: rgba(0, 0, 0, 0.582); */
+  
+}
+
+.fetchCategories{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+button:focus{
+  background-color: white;
+}
